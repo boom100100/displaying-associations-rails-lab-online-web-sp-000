@@ -1,4 +1,4 @@
 <% @artists.each do |artist| %>
-  <div><%= artist.name %> - Song count: <%= artist.song_count %></div>
+  <div><%= artist.name %> - Song count: <%= artist.song_count %> song<%= "s" if artist.song_count > 1 %></div>
 <%end%>
   
